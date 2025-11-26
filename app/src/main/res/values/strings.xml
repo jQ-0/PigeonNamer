@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pigeon Namer</string>
+    <string name='button_prompt'>New name!</string>
+</resources>
