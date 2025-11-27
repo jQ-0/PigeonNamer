@@ -4,13 +4,15 @@ import android.content.res.Resources;
 import android.content.Context;
 
 import java.util.Random;
+
 public class Namer {
     private static String[] names;
+    private final Random random = new Random();
 
-    public Namer() {}
+    public Namer() {
+    }
 
     public String newName() {
-        Random random = new Random();
 
         int n = random.nextInt(1178);
 
