@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        namer.getArray(this);
+
     }
 
     public void click(View view) {
