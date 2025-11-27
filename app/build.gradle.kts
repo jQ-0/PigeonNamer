@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.zybooks.pigeonnamer"
+    namespace = "com.jQ_0.pigeonnamer"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.zybooks.pigeonnamer"
+        applicationId = "com.jQ_0.pigeonnamer"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
