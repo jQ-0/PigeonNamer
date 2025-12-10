@@ -14,7 +14,7 @@ public class Namer {
 
     public String newName() {
 
-        int n = random.nextInt(1178);
+        int n = random.nextInt(names.length - 1);
 
         return names[n];
     }
